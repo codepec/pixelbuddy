@@ -18,7 +18,7 @@ Be careful! If any of the stats (hunger, happiness, or health) reach zero, your 
 
 ## Demo
 
-You can play the game directly in your browser using GitHub Pages: [Play Pixel Buddy](https://codepec.github.io/PixelBuddy/)
+You can play the game directly in your browser using GitHub Pages: [Play Pixel Buddy](https://codepec.github.io/pixelbuddy/)
 
 ## License
 
