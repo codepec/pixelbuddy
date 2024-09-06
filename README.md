@@ -23,3 +23,7 @@ You can play the game directly in your browser using GitHub Pages: [Play Pixel B
 ## License
 
 This project is licensed under the MIT License. See the LICENSE file for more details.
+
+## Acknowledgements
+
+A special thanks to [DeepAI](https://deepai.org/) for providing the images used in this project. Your resources were invaluable!
