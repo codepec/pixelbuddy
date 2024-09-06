@@ -43,7 +43,7 @@ function updateStatus() {
 
 
     if (hunger <= 0 || happiness <= 0 || health <= 0) {
-        alert("Dein Pixel Buddy ist gestorben 😢");
+        alert("Your Pixel Buddy has died. 😢");
         resetGame();
     }
 }
@@ -92,7 +92,7 @@ function gameLoop() {
     updateStatus();
 
     if (hunger > 0 && happiness > 0 && health > 0) {
-        setTimeout(gameLoop, 3000); // Reduziert alle 3 Sekunden
+        setTimeout(gameLoop, 3000); 
     }
 }
 
