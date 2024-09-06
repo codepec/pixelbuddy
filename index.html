@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pixel Buddy</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Pixel Buddy</h1>
+        <p>Take Care of Me!</p>
+        <div class="pixelbuddy">
+            <img src="pixelbuddy.gif" alt="pixelbuddy" id="pet">
+            <div class="status">
+                <p>Hunger: <span id="hunger">100</span></p>
+                <p>Happiness: <span id="happiness">100</span></p>
+                <p>Health: <span id="health">100</span></p>
+            </div>
+            <div class="buttons">
+                <button onclick="feedPet()">Feed</button>
+                <button onclick="playWithPet()">Play</button>
+                <button onclick="healPet()">Heal</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
